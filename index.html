@@ -1,0 +1,149 @@
+<!doctype html><html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Influencer Tracker · Trading / Investing / Mindset</title>
+<style>
+:root{color-scheme:dark;--bg:#0d0f12;--card:#171a20;--muted:#9299a6;--line:#292e38;--accent:#c7f36b;--up:#6be39a;--down:#ff7b7b;--ig:#e1306c;--tt:#25f4ee}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#f4f6f8;font:15px/1.5 system-ui,"Noto Sans Thai",sans-serif}
+main{max-width:1180px;margin:0 auto;padding:36px 18px 70px}
+h1{margin:0 0 6px;font-size:clamp(1.9rem,5vw,3rem);letter-spacing:-.04em}
+header p{margin:0 0 6px;color:var(--muted)}
+.updated{color:var(--accent);font-weight:700}
+.controls{display:flex;flex-direction:column;gap:10px;margin:20px 0 6px;position:sticky;top:0;background:var(--bg);padding:10px 0;z-index:5}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.row .lbl{color:var(--muted);font-size:13px;min-width:62px}
+.chip{color:#0d0f12;background:var(--accent);font:inherit;font-size:14px;font-weight:700;border:0;border-radius:999px;padding:5px 12px;cursor:pointer}
+.chip[aria-pressed="false"]{color:var(--accent);background:transparent;box-shadow:inset 0 0 0 1px var(--accent)}
+select,input[type=search]{font:inherit;color:#f4f6f8;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:6px 10px}
+input[type=search]{flex:1;min-width:160px}
+.count{color:var(--muted);font-size:13px}
+details.help{margin:8px 0 16px;color:#d8dce3;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;font-size:14px}
+details.help summary{cursor:pointer;font-weight:700;color:var(--accent)}
+details.help li{margin:4px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.card{border:1px solid var(--line);border-radius:16px;background:var(--card);padding:16px;display:flex;flex-direction:column;gap:10px;position:relative}
+.rank{position:absolute;top:12px;right:14px;color:var(--muted);font-size:12px;font-weight:700}
+.top{display:flex;gap:12px;align-items:center}
+.avatar{flex:0 0 46px;height:46px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:20px;color:#0d0f12;background:var(--accent)}
+.who{min-width:0}.handle{font-weight:750;word-break:break-all}.handle a{color:inherit;text-decoration:none}
+.dname{color:var(--muted);font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.badges{display:flex;gap:6px;flex-wrap:wrap}
+.badge{font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;border-radius:6px;padding:2px 7px;background:#232832;color:#d8dce3}
+.badge.instagram{background:var(--ig);color:#fff}.badge.tiktok{background:#111;color:var(--tt);box-shadow:inset 0 0 0 1px var(--tt)}
+.badge.niche{color:var(--accent)}
+.badge.warn{background:#4a3a14;color:#ffd166}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.stat{background:#11141a;border-radius:10px;padding:7px 8px}
+.stat b{display:block;font-size:16px;font-variant-numeric:tabular-nums}
+.stat span{color:var(--muted);font-size:11.5px}
+.up{color:var(--up)}.down{color:var(--down)}
+.spark{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:12px}
+.spark svg{flex:1;height:38px;background:#11141a;border-radius:8px}
+.kv{font-size:13px;color:#d8dce3}.kv span{color:var(--muted)}
+.links{margin-top:auto;display:flex;justify-content:space-between;gap:10px;font-size:13px}
+.links a{color:var(--accent);text-decoration:none;font-weight:650}
+.empty{color:var(--muted);padding:30px 0}
+footer{margin-top:40px;color:var(--muted);font-size:13px}
+@media (max-width:520px){.controls{position:static}main{padding:24px 12px 60px}.stats{grid-template-columns:repeat(3,1fr)}.stat b{font-size:15px}}
+</style></head><body><main>
+<header>
+<h1>Influencer Tracker</h1>
+<p>ติดตามครีเอเตอร์สาย Trading · Investing · Mindset บน Instagram และ TikTok เพื่อหาคน collab / IB, ดูคอนเทนต์ที่โตเร็ว และจับตาคู่แข่ง</p>
+<p>อัปเดตล่าสุด: <span class="updated" id="updated">—</span> · <span id="totals"></span></p>
+</header>
+<div class="controls">
+ <div class="row"><span class="lbl">เรียงตาม</span>
+  <select id="sort">
+   <option value="wow">โตเร็วที่สุด (ผู้ติดตาม % ต่อสัปดาห์)</option>
+   <option value="er">Engagement สูงสุด (ไลก์เฉลี่ย ÷ ผู้ติดตาม)</option>
+   <option value="breakout">ดาวรุ่ง (Breakout)</option>
+   <option value="followers">ผู้ติดตามมากที่สุด</option>
+   <option value="total">โตรวมตั้งแต่เริ่มเก็บ</option>
+   <option value="views">วิวเฉลี่ยสูงสุด</option>
+   <option value="added">เพิ่มล่าสุด</option>
+  </select>
+  <input type="search" id="q" placeholder="ค้นหา handle / ชื่อ / สิ่งที่ขาย">
+ </div>
+ <div class="row" id="pf"><span class="lbl">แพลตฟอร์ม</span></div>
+ <div class="row" id="nf"><span class="lbl">หมวด</span></div>
+ <div class="count" id="count"></div>
+</div>
+<details class="help"><summary>วิธีอ่านตัวเลข</summary><ul>
+<li><b>โตต่อสัปดาห์ (WoW)</b> = % ผู้ติดตามที่เปลี่ยนจากสแนปช็อตก่อนหน้า (ห่างกันอย่างน้อย 5 วัน) · <b>โตรวม</b> = เทียบกับสแนปช็อตแรกที่เก็บได้ ถ้ามีสแนปช็อตเดียวจะแสดง —</li>
+<li><b>ER (Engagement rate)</b> = ไลก์เฉลี่ยของโพสต์ล่าสุด ~12 โพสต์ ÷ ผู้ติดตาม × 100 (แสดงเมื่อรู้ทั้งสองค่า)</li>
+<li><b>ดาวรุ่ง (Breakout)</b> = เฉพาะบัญชีที่มีผู้ติดตามไม่ถึง 100K · คะแนน = ER% + การโต WoW% (ถ้าโตเป็นบวก) · บัญชีเล็กที่คนมีส่วนร่วมสูงและกำลังโตจะขึ้นก่อน</li>
+<li><b>อัตราการดู</b> = วิวเฉลี่ย ~12 โพสต์ล่าสุด ÷ ผู้ติดตาม × 100</li>
+<li>เครื่องหมาย <b>≈</b> = หน้าโปรไฟล์แสดงเป็นตัวย่อ (เช่น 1.2M) จึงไม่ใช่ตัวเลขเป๊ะ · <b>—</b> = ไม่เห็นตัวเลขนั้นจริง เราไม่ประมาณค่าเอง</li>
+<li>เก็บข้อมูลสัปดาห์ละครั้งจากหน้าสาธารณะเท่านั้น</li>
+</ul></details>
+<div class="grid" id="grid"></div>
+<div class="empty" id="empty" hidden>ไม่มีบัญชีที่ตรงกับตัวกรอง</div>
+<footer>ข้อมูลดิบ: <a style="color:var(--accent)" href="data/influencers.json">influencers.json</a> · <a style="color:var(--accent)" href="data/site.json">site.json</a></footer>
+</main>
+<script>
+const NICHE_TH={trading:"Trading",investing:"Investing",mindset:"Mindset"};
+const PLAT_TH={instagram:"Instagram",tiktok:"TikTok"};
+const state={sort:"wow",plat:"all",niche:"all",q:""};
+let DATA=null;
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl=u=>/^https?:\/\//i.test(u||"")?u:null;
+function fmt(n){if(n==null)return"—";const a=Math.abs(n);
+ if(a>=1e6)return(n/1e6).toFixed(a>=1e7?1:2).replace(/\.?0+$/,"")+"M";
+ if(a>=1e4)return(n/1e3).toFixed(1).replace(/\.0$/,"")+"K";return n.toLocaleString("en-US");}
+function pct(v,approx){if(v==null)return'<b>—</b>';const c=v>0?"up":v<0?"down":"";
+ return`<b class="${c}">${approx?"≈":""}${v>0?"+":""}${v.toFixed(2)}%</b>`;}
+function followersCell(a){if(a.followers==null)return"—";
+ if(a.followers_approx)return"≈"+esc(a.followers_display||fmt(a.followers));return fmt(a.followers);}
+function spark(h){
+ if(!h||h.length<2)return`<div class="spark"><svg viewBox="0 0 100 30" preserveAspectRatio="none">${h&&h.length?'<circle cx="50" cy="15" r="2.5" fill="#c7f36b"/>':""}</svg><span>${h&&h.length?"มีสแนปช็อตเดียว":"ยังไม่มีข้อมูล"}</span></div>`;
+ const ys=h.map(p=>p.followers),min=Math.min(...ys),max=Math.max(...ys),r=max-min||1;
+ const pts=h.map((p,i)=>`${(i/(h.length-1)*96+2).toFixed(1)},${(27-(p.followers-min)/r*24).toFixed(1)}`).join(" ");
+ const col=ys[ys.length-1]>=ys[0]?"#6be39a":"#ff7b7b";
+ return`<div class="spark"><svg viewBox="0 0 100 30" preserveAspectRatio="none"><polyline points="${pts}" fill="none" stroke="${col}" stroke-width="1.6" vector-effect="non-scaling-stroke"/></svg><span>${h.length} สัปดาห์</span></div>`;}
+function card(a,i){
+ const init=(a.display_name||a.handle||"?").replace(/[^\p{L}\p{N}]/gu,"").charAt(0).toUpperCase()||"?";
+ const prof=safeUrl(a.profile_url),src=safeUrl(a.source_post),ext=safeUrl(a.external_link);
+ const status=a.snapshot_status&&!["ok","partial"].includes(a.snapshot_status)?`<span class="badge warn">${esc(a.snapshot_status)}</span>`:"";
+ const sells=(a.sells||[]).length?esc(a.sells.join(", ")):"—";
+ return`<article class="card"><span class="rank">#${i+1}</span>
+ <div class="top"><div class="avatar" style="background:${a.platform==="tiktok"?"#25f4ee":"#c7f36b"}">${esc(init)}</div>
+ <div class="who"><div class="handle">${prof?`<a href="${esc(prof)}" target="_blank" rel="noopener">@${esc(a.handle)}</a>`:"@"+esc(a.handle)}</div>
+ <div class="dname">${a.display_name?esc(a.display_name):"ชื่อ: —"}</div></div></div>
+ <div class="badges"><span class="badge ${esc(a.platform)}">${esc(PLAT_TH[a.platform]||a.platform)}</span>${a.niche?`<span class="badge niche">${esc(NICHE_TH[a.niche]||a.niche)}</span>`:""}${status}</div>
+ <div class="stats">
+  <div class="stat"><b>${followersCell(a)}</b><span>ผู้ติดตาม</span></div>
+  <div class="stat">${pct(a.wow_pct,a.growth_approx)}<span>โต/สัปดาห์</span></div>
+  <div class="stat">${pct(a.total_pct,a.growth_approx)}<span>โตรวม</span></div>
+  <div class="stat"><b>${a.er==null?"—":(a.followers_approx?"≈":"")+a.er.toFixed(2)+"%"}</b><span>ER</span></div>
+  <div class="stat"><b>${fmt(a.avg_likes_last12)}</b><span>ไลก์เฉลี่ย${a.sample_size?` (${a.sample_size})`:""}</span></div>
+  <div class="stat"><b>${fmt(a.avg_views_last12)}</b><span>วิวเฉลี่ย${a.views_sample_size?` (${a.views_sample_size})`:""}</span></div>
+ </div>
+ ${spark(a.history)}
+ <div class="kv"><span>ประเทศ/ภาษา:</span> ${esc(a.country_or_language||"—")}</div>
+ <div class="kv"><span>ขายอะไร:</span> ${sells}</div>
+ <div class="kv"><span>โพสต์ทั้งหมด:</span> ${fmt(a.posts)} · <span>กำลังติดตาม:</span> ${fmt(a.following)}${a.breakout!=null?` · <span>Breakout:</span> ${a.breakout.toFixed(2)}`:""}</div>
+ <div class="links">${prof?`<a href="${esc(prof)}" target="_blank" rel="noopener">เปิดโปรไฟล์ ↗</a>`:"<span></span>"}${src?`<a href="${esc(src)}" target="_blank" rel="noopener">โพสต์ที่เจอ ↗</a>`:ext?`<a href="${esc(ext)}" target="_blank" rel="noopener nofollow">ลิงก์ในไบโอ ↗</a>`:""}</div>
+ </article>`;}
+const SORTS={wow:a=>a.wow_pct,er:a=>a.er,breakout:a=>a.breakout,followers:a=>a.followers,total:a=>a.total_pct,views:a=>a.avg_views_last12,added:a=>a.date_added?Date.parse(a.date_added):null};
+function render(){
+ const q=state.q.trim().toLowerCase(),f=SORTS[state.sort];
+ let list=DATA.accounts.filter(a=>(state.plat==="all"||a.platform===state.plat)&&(state.niche==="all"||a.niche===state.niche)&&
+  (!q||[a.handle,a.display_name,a.bio,(a.sells||[]).join(" "),a.country_or_language].join(" ").toLowerCase().includes(q)));
+ list.sort((x,y)=>{const a=f(x),b=f(y);if(a==null&&b==null)return(y.followers??-1)-(x.followers??-1)||(y.source_post_likes??-1)-(x.source_post_likes??-1)||x.handle.localeCompare(y.handle);
+  if(a==null)return 1;if(b==null)return -1;return b-a;});
+ document.getElementById("grid").innerHTML=list.map(card).join("");
+ document.getElementById("empty").hidden=list.length>0;
+ const withVal=list.filter(a=>f(a)!=null).length;
+ document.getElementById("count").textContent=`แสดง ${list.length} บัญชี · มีค่าสำหรับการเรียงนี้ ${withVal} บัญชี (ที่เหลือเรียงต่อท้าย)`;
+}
+function chips(el,key,opts){const box=document.getElementById(el);
+ opts.forEach(([v,label])=>{const b=document.createElement("button");b.className="chip";b.textContent=label;b.setAttribute("aria-pressed",String(state[key]===v));
+  b.onclick=()=>{state[key]=v;box.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed","false"));b.setAttribute("aria-pressed","true");render();};box.appendChild(b);});}
+fetch("data/site.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{DATA=d;
+ document.getElementById("updated").textContent=d.last_updated||("ยังไม่มีสแนปช็อต (สร้างหน้า "+d.generated_at.slice(0,10)+")");
+ const c=d.counts||{};document.getElementById("totals").textContent=`${d.accounts.length} บัญชี (Instagram ${c.instagram||0} · TikTok ${c.tiktok||0}) · สแนปช็อต ${d.snapshot_dates.length} ครั้ง`;
+ const n=k=>d.accounts.filter(a=>a.platform===k||a.niche===k).length;
+ chips("pf","plat",[["all","ทั้งหมด"],["instagram",`Instagram (${n("instagram")})`],["tiktok",`TikTok (${n("tiktok")})`]]);
+ chips("nf","niche",[["all","ทั้งหมด"],["trading",`Trading (${n("trading")})`],["investing",`Investing (${n("investing")})`],["mindset",`Mindset (${n("mindset")})`]]);
+ const sel=document.getElementById("sort");sel.onchange=()=>{state.sort=sel.value;render();};
+ document.getElementById("q").oninput=e=>{state.q=e.target.value;render();};
+ render();}).catch(e=>{document.getElementById("grid").innerHTML='<div class="empty">โหลดข้อมูลไม่สำเร็จ: '+esc(e)+'</div>';});
+</script></body></html>
