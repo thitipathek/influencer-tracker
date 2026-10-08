@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T17:58:53+07:00",
+ "generated_at": "2026-10-08T18:51:28+07:00",
  "last_updated": "2026-10-08",
  "snapshot_dates": [
   "2026-10-08"
@@ -14,8 +14,8 @@
    "handle": "___ict_",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/___ict_/",
-   "display_name": null,
-   "bio": null,
+   "display_name": "Inner Circle Trader",
+   "bio": "💎 21 Y/O\n💰 Funded Day Trader\n📈 Futures Trader\n🎯 ICT Concepts\n(I don’t sell anything)",
    "country_or_language": null,
    "niche": "trading",
    "sells": [],
@@ -24,30 +24,45 @@
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/p/DdbqtxoN8Lj/",
    "source_post_likes": 5500,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 9647,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "9,647",
+   "following": 0,
+   "posts": 38,
+   "avg_likes_last12": 2308,
+   "sample_size": 12,
+   "avg_views_last12": 58913,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 23.925,
+   "view_rate": 610.69,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
-   "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "breakout": 23.925,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 9647,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:airforexone",
@@ -87,7 +102,16 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:alpha_fx_traders_5522",
@@ -135,7 +159,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:andreacimi.trading",
@@ -177,7 +210,16 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:andreyefi",
@@ -223,47 +265,73 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:atsmatrix",
    "handle": "atsmatrix",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/atsmatrix/",
-   "display_name": null,
-   "bio": null,
-   "country_or_language": null,
+   "display_name": "ANYELO ENCARNACION | ATS-MATRIX",
+   "bio": "ATS MATRIX | Multi-agent AI trading systems\nBuilt live on the Command Floor 🇺🇸🇨🇺\n👇 Systems, drops & builds",
+   "country_or_language": "Flags in bio: 🇺🇸 🇨🇺 (no country stated)",
    "niche": "investing",
-   "sells": [],
+   "sells": [
+    "AI trading systems (per bio: 'Multi-agent AI trading systems'; price/terms not visible)"
+   ],
    "sells_evidence": null,
-   "external_link": null,
+   "external_link": "www.atsmatrix.com; github.com/anyel1to; anyel1to.github.io/atsmatrix-agent-visualizeR--ANYEL1TO; Facebook page (Ats-Matrix); t.me/+9HHanGCZQYY5ZmMx",
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/p/DcEWOUVNpbN/",
    "source_post_likes": 4400,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 37693,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "37.6K",
+   "following": 28,
+   "posts": 178,
+   "avg_likes_last12": 1152,
+   "sample_size": 12,
+   "avg_views_last12": 30933,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 3.056,
+   "view_rate": 82.07,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
-   "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "breakout": 3.056,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 37693,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:avaltrades",
@@ -312,7 +380,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:baron.lev",
@@ -360,7 +437,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:bbtradezz_",
@@ -406,87 +492,129 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:crypto_sr_",
    "handle": "crypto_sr_",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/crypto_sr_/",
-   "display_name": null,
-   "bio": null,
-   "country_or_language": null,
+   "display_name": "samir Gadhave",
+   "bio": "> Gold (XAUUSD) price action breakdowns. Past trades only. No signals.",
+   "country_or_language": "English (bio text)",
    "niche": "trading",
-   "sells": [],
+   "sells": [
+    "Prop-firm discount code CRYPTOSR (Blueberry Funded affiliate link in Instagram link list, 20% off)",
+    "Prop-firm discount code SR20 (Fundedhive / Tradinghive affiliate link in link list, 20% off)"
+   ],
    "sells_evidence": null,
-   "external_link": null,
+   "external_link": "discord.gg/aPuNjNG4wP",
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/reel/DcD63_yIPvt/",
    "source_post_likes": 8253,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 11040,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "11K",
+   "following": 0,
+   "posts": 267,
+   "avg_likes_last12": 136,
+   "sample_size": 12,
+   "avg_views_last12": 4553,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 1.232,
+   "view_rate": 41.24,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
-   "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "breakout": 1.232,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 11040,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:davidarias_cfa",
    "handle": "davidarias_cfa",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/davidarias_cfa/",
-   "display_name": null,
-   "bio": null,
+   "display_name": "David Arias, CFA",
+   "bio": "🏦 Licensed portfolio manager in brazilian markets\n📊 Quant Finance, options trading and ML/DL\n👇 Python scripts and repos here",
    "country_or_language": null,
    "niche": "investing",
    "sells": [],
    "sells_evidence": null,
-   "external_link": null,
+   "external_link": "davidariasfinance.com/links",
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/p/DbYOQlSFJSZ/",
    "source_post_likes": 5100,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 12922,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "12.9K",
+   "following": 170,
+   "posts": 68,
+   "avg_likes_last12": 451,
+   "sample_size": 12,
+   "avg_views_last12": 10748,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 3.49,
+   "view_rate": 83.18,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
-   "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "breakout": 3.49,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 12922,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:deepcharts.io",
@@ -526,7 +654,16 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:dekoda.trades",
@@ -566,7 +703,16 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:finanzkroko",
@@ -607,7 +753,16 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:finshala.with.priya",
@@ -649,7 +804,16 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:forex.with.rajputt",
@@ -697,7 +861,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:fx.wota",
@@ -737,47 +910,73 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:gamma.tradez",
    "handle": "gamma.tradez",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/gamma.tradez/",
-   "display_name": null,
-   "bio": null,
+   "display_name": "Gamma Trades",
+   "bio": "📈 | NQ Daytrader since 2020\n🏆| +13,000 members on Discord\n⬇️ ACCESS MY ANALYSIS & LEARN FROM ME ⬇️",
    "country_or_language": null,
    "niche": "trading",
-   "sells": [],
+   "sells": [
+    "Products on whop.com storefront (type not visible)"
+   ],
    "sells_evidence": null,
-   "external_link": null,
+   "external_link": "whop.com/gamma-trades/products; discord.gg/rqpj4snbET",
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/p/DduU-R5IRMR/",
    "source_post_likes": 5500,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 5123,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "5,123",
+   "following": 30,
+   "posts": 48,
+   "avg_likes_last12": 1070,
+   "sample_size": 12,
+   "avg_views_last12": 27485,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 20.886,
+   "view_rate": 536.5,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
-   "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "breakout": 20.886,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 5123,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:hbl.trades",
@@ -817,47 +1016,75 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:humza_trades",
    "handle": "humza_trades",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/humza_trades/",
-   "display_name": null,
-   "bio": null,
-   "country_or_language": null,
+   "display_name": "Humza trades.",
+   "bio": "📈4 years + experience Gold market ⚡️\n⚜️providing accurate Forex signals📈\nJoin group👇",
+   "country_or_language": "English (bio text)",
    "niche": "trading",
-   "sells": [],
+   "sells": [
+    "Broker referral link ('Unlimited leverage broker ☝🏻', one.exnessonelink.com)",
+    "Forex signals (bio: 'providing accurate Forex signals')",
+    "Free signal group (WhatsApp channel link '💵Hamza Fx📈Free signal Group ⚜️')"
+   ],
    "sells_evidence": null,
-   "external_link": null,
+   "external_link": "whatsapp.com/channel/0029VbAnV9I4IBhJs2Lbji20",
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/p/DdW65bkqQdu/",
    "source_post_likes": 6500,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 1971,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "1,971",
+   "following": 38,
+   "posts": 76,
+   "avg_likes_last12": 725,
+   "sample_size": 12,
+   "avg_views_last12": 76497,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 36.783,
+   "view_rate": 3881.13,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
-   "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "breakout": 36.783,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 1971,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:ictkesik",
@@ -899,58 +1126,83 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:ictwithmaria",
    "handle": "ictwithmaria",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/ictwithmaria/",
-   "display_name": null,
-   "bio": null,
-   "country_or_language": null,
+   "display_name": "𝗠𝗔𝗥𝗜𝗔 𝗜𝗖𝗧",
+   "bio": "🇬🇧 | 𝗨𝗞 & 𝗨𝗔𝗘\n🧿 | 𝗜𝗡𝗡𝗘𝗥 𝗖𝗜𝗥𝗖𝗟𝗘 𝗧𝗥𝗔𝗗𝗘𝗥\n📈 | 𝗙𝗢𝗥𝗘𝗫 𝗜𝗡𝗗𝗜𝗖𝗘𝗦 𝗖𝗥𝗬𝗣𝗧𝗢",
+   "country_or_language": "UK & UAE (bio text); English (bio text)",
    "niche": "trading",
    "sells": [
+    "Telegram channel t.me/ictwithmariaguidancee (bio link; not opened)",
     "VIP group"
    ],
    "sells_evidence": "Post points viewers to free and VIP groups for full trade details",
-   "external_link": null,
+   "external_link": "t.me/ictwithmariaguidancee",
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/p/Dd1gEOCKgg9/",
    "source_post_likes": 6044,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
-   "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "latest_date": "2026-10-08",
+   "followers": 19500,
+   "followers_approx": true,
+   "followers_display": "19.5K",
+   "following": 0,
+   "posts": 288,
+   "avg_likes_last12": 649,
+   "sample_size": 12,
+   "avg_views_last12": 2019,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 3.328,
+   "view_rate": 10.35,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
-   "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "breakout": 3.328,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 19500,
+     "approx": true
+    }
+   ],
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:jeffreyinvestwealth",
    "handle": "jeffreyinvestwealth",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/jeffreyinvestwealth/",
-   "display_name": null,
-   "bio": null,
-   "country_or_language": null,
+   "display_name": "Yossavat Phanchaisri",
+   "bio": "ช่วยให้ทุกคน “เทรดอย่างเป็นระบบ” 📈\nTrading • Mindset • Risk Management\nเข้าร่วม Community ฟรี Line@investwealth",
+   "country_or_language": "Thai (bio language)",
    "niche": "trading",
    "sells": [],
    "sells_evidence": null,
@@ -958,30 +1210,45 @@
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/p/Dd_DgjKJ88d/",
    "source_post_likes": 4911,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 20670,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "20.6K",
+   "following": 4286,
+   "posts": 142,
+   "avg_likes_last12": 130,
+   "sample_size": 12,
+   "avg_views_last12": 44399,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 0.629,
+   "view_rate": 214.8,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
-   "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "breakout": 0.629,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 20670,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:josh_zitman",
@@ -1030,7 +1297,16 @@
      "approx": true
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:julianmerrow",
@@ -1078,7 +1354,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:kasen.nq",
@@ -1118,87 +1403,128 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:khatera_markets",
    "handle": "khatera_markets",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/khatera_markets/",
-   "display_name": null,
-   "bio": null,
+   "display_name": "𝐊𝐇𝐀𝐓𝐄𝐑𝐀 | 𝐌𝐀𝐑𝐊𝐄𝐓𝐒",
+   "bio": "📉 Finance & Investment\n🏠 20+ Yrs RE | Former Broker\n🌐 Capital Preservation\n🌍 Marbella l Global\n🎓 1:1 Trading Mentorship",
    "country_or_language": null,
    "niche": "trading",
-   "sells": [],
+   "sells": [
+    "1:1 trading mentorship (per bio)"
+   ],
    "sells_evidence": null,
-   "external_link": null,
+   "external_link": "khateramarkets.com",
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/p/DdHR5VfBfPc/",
    "source_post_likes": 5200,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 6080,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "6,080",
+   "following": 1782,
+   "posts": 756,
+   "avg_likes_last12": 858,
+   "sample_size": 8,
+   "avg_views_last12": 18494,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 14.112,
+   "view_rate": 304.18,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
-   "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "breakout": 14.112,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 6080,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:kitakafx",
    "handle": "kitakafx",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/kitakafx/",
-   "display_name": null,
-   "bio": null,
+   "display_name": "Trevor Kitaka",
+   "bio": "▪️ FREE daily trade setups and Analysis\n⬇️ Download my FREE Trading Guide\nt.me/fxblueprintschannel",
    "country_or_language": null,
    "niche": "trading",
    "sells": [],
    "sells_evidence": null,
-   "external_link": null,
+   "external_link": "t.me/fxblueprintschannel",
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/p/DczAC9aoCc1/",
    "source_post_likes": 4700,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 15301,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "15.3K",
+   "following": 35,
+   "posts": 45,
+   "avg_likes_last12": 7071,
+   "sample_size": 12,
+   "avg_views_last12": 181906,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 46.213,
+   "view_rate": 1188.85,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
-   "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "breakout": 46.213,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 15301,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:lauunq",
@@ -1246,15 +1572,24 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:leviathan.xau",
    "handle": "leviathan.xau",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/leviathan.xau/",
-   "display_name": null,
-   "bio": null,
+   "display_name": "Leviathan",
+   "bio": "🦁 LEVIATHAN | Gold & Forex\nMarket Structure\nSMC • Liquidity\nPrice Action Analysis\nEducational Only - Not Financial Advice",
    "country_or_language": null,
    "niche": "trading",
    "sells": [],
@@ -1263,30 +1598,45 @@
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/p/Dd3CymMtT0h/",
    "source_post_likes": 4000,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 6500,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "6,500",
+   "following": 8,
+   "posts": 205,
+   "avg_likes_last12": 149,
+   "sample_size": 12,
+   "avg_views_last12": 30944,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 2.292,
+   "view_rate": 476.06,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
-   "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "breakout": 2.292,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 6500,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:marketpedia__real",
@@ -1326,7 +1676,16 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:mbahforexx",
@@ -1366,49 +1725,75 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:mehwish31826",
    "handle": "mehwish31826",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/mehwish31826/",
-   "display_name": null,
-   "bio": null,
-   "country_or_language": null,
+   "display_name": "Mehwish trader",
+   "bio": "✨ Forex Trader | Signal Provider 📈 Daily Trading Signals 🎯 Risk Management First 📩 DM for Details👇\nhttps://t.me/ictliquiditytrader876",
+   "country_or_language": "English (bio text)",
    "niche": "trading",
    "sells": [
+    "Telegram link t.me/ictliquiditytrader876 (bio link, not opened)",
+    "Trading signals (bio: 'Signal Provider', 'Daily Trading Signals')",
     "signals (Telegram VIP)"
    ],
    "sells_evidence": "Caption: \"Vip trade setup ... telegram channel link in bio\"",
-   "external_link": null,
+   "external_link": "t.me/ictliquiditytrader876",
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/p/DbSIu55qBSb/",
    "source_post_likes": 8200,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 3078,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "3,078",
+   "following": 3,
+   "posts": 169,
+   "avg_likes_last12": 520,
+   "sample_size": 12,
+   "avg_views_last12": 28413,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 16.894,
+   "view_rate": 923.1,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
-   "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "breakout": 16.894,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 3078,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:mertfutures",
@@ -1448,7 +1833,16 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:missyou._90",
@@ -1494,7 +1888,16 @@
      "approx": true
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:mlkies",
@@ -1541,7 +1944,16 @@
      "approx": true
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:mod_tanoy2004",
@@ -1582,7 +1994,16 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:mr_flex_martinez",
@@ -1622,7 +2043,16 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:mralbash_",
@@ -1672,87 +2102,132 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:naddufx1122",
    "handle": "naddufx1122",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/naddufx1122/",
-   "display_name": null,
-   "bio": null,
-   "country_or_language": null,
+   "display_name": "Muhammad Nadeem",
+   "bio": "EST fx signals Team\nExpert Forex Market\nAccount Managment Service Available\n⚠️ Disclaimer:\nEducational Only | Trading Has Risks | No Financial Advice",
+   "country_or_language": "English (bio text)",
    "niche": "trading",
-   "sells": [],
+   "sells": [
+    "Account management service (bio: 'Account Managment Service Available')",
+    "Forex signals (bio: 'EST fx signals Team'; Telegram channel t.me/globalfxsignalsteam1122 linked in bio, not opened)"
+   ],
    "sells_evidence": null,
-   "external_link": null,
+   "external_link": "t.me/globalfxsignalsteam1122",
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/p/DXqdmd1iMKE/",
    "source_post_likes": 8500,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 40790,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "40.7K",
+   "following": 16,
+   "posts": 3582,
+   "avg_likes_last12": 50,
+   "sample_size": 12,
+   "avg_views_last12": 3120,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 0.123,
+   "view_rate": 7.65,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
-   "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "breakout": 0.123,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 40790,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:nexural.io",
    "handle": "nexural.io",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/nexural.io/",
-   "display_name": null,
-   "bio": null,
-   "country_or_language": null,
+   "display_name": "Nexural",
+   "bio": "Anti-System | F*** fake Gurus\nTrade with process-not prediction\nDm “PATH” for\nFree Handbook, indicators, and community ⬇️\nHardcore Investor/Trader ✌🏻",
+   "country_or_language": "English (bio text)",
    "niche": "trading",
-   "sells": [],
+   "sells": [
+    "Indicators (bio: 'Dm “PATH” for Free Handbook, indicators, and community'; DM-gated)",
+    "Nexural AI (link labelled 'Nexural AI', nexural.io)"
+   ],
    "sells_evidence": null,
-   "external_link": null,
+   "external_link": "discord.gg/7A4AU7HMJp",
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/p/Da6RJeNAEq4/",
    "source_post_likes": 6200,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 10051,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "10K",
+   "following": 318,
+   "posts": 156,
+   "avg_likes_last12": 601,
+   "sample_size": 12,
+   "avg_views_last12": 4277,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 5.98,
+   "view_rate": 42.55,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
-   "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "breakout": 5.98,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 10051,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:official.moneymatters",
@@ -1792,7 +2267,16 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:onlyriisky",
@@ -1841,7 +2325,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:quantflowlabs",
@@ -1881,7 +2374,16 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:rahul_fx_trader28",
@@ -1921,7 +2423,16 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": "not_found"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "not_found",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:rory.trades",
@@ -1961,7 +2472,16 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:shuhratov_fx",
@@ -2007,47 +2527,160 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:skylinetradersclub",
    "handle": "skylinetradersclub",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/skylinetradersclub/",
-   "display_name": null,
-   "bio": null,
-   "country_or_language": null,
+   "display_name": "Skyline Traders Club",
+   "bio": "📲Private Trading Community\nBusiness enquiries: [email redacted]\nTrade with me👇\nskylinetradersclub.com/discord.html",
+   "country_or_language": "English (bio text)",
    "niche": "trading",
-   "sells": [],
+   "sells": [
+    "Premium Discord: signals + community (link 'Join Premium Discord (Signals+Community)')"
+   ],
    "sells_evidence": null,
-   "external_link": null,
+   "external_link": "skylinetradersclub.com/discord.html",
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/p/Dc4JFIht3j6/",
    "source_post_likes": 6100,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 287249,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "287K",
+   "following": 0,
+   "posts": 934,
+   "avg_likes_last12": 938,
+   "sample_size": 12,
+   "avg_views_last12": 118855,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 0.349,
+   "view_rate": 41.38,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
    "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 287249,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": 65,
+   "er_includes_comments": true,
+   "snapshot_status": "ok",
+   "avatar": "media/instagram-skylinetradersclub-avatar.webp?v=1cae1564bd",
+   "screenshot": "media/instagram-skylinetradersclub-profile.webp?v=166a0ae868",
+   "screenshot_thumb": "media/instagram-skylinetradersclub-profile-thumb.webp?v=96942c5d43",
+   "screenshot_w": 1000,
+   "screenshot_h": 580,
+   "media_date": "2026-10-08",
+   "score": {
+    "scored_at": "2026-10-08",
+    "pre_growth": true,
+    "total": 43,
+    "max": 75,
+    "scaled_100": 57.3,
+    "complete": true,
+    "missing": [],
+    "grade": "C",
+    "sections": {
+     "engagement": {
+      "points": 5,
+      "max": 35,
+      "items": {
+       "er": {
+        "points": 1,
+        "max": 15,
+        "value": 0.349,
+        "note": "(avg likes 938 + avg comments 65) / 287249 followers = 0.35% over 12 posts; snapshot 2026-10-08"
+       },
+       "consistency": {
+        "points": 0,
+        "max": 10,
+        "value": 0.017,
+        "note": "median/max of views on 12 posts = 0.02 (CV 2.74); snapshot 2026-10-08"
+       },
+       "comment_quality": {
+        "points": 4,
+        "max": 10,
+        "value": null,
+        "note": "Small readable sample (11 of 31): a few real questions (timeframe, order block after displacement), mostly emoji-only; no spam seen"
+       }
+      }
+     },
+     "growth": null,
+     "remix": {
+      "points": 23,
+      "max": 25,
+      "items": {
+       "topic": {
+        "points": 10,
+        "max": 10,
+        "value": null,
+        "note": "SMC order blocks / FVG on forex & gold-style charts"
+       },
+       "format": {
+        "points": 9,
+        "max": 10,
+        "value": null,
+        "note": "Short OB+FVG explainer reels, highly repeatable"
+       },
+       "thai_gap": {
+        "points": 4,
+        "max": 5,
+        "value": null,
+        "note": "Few Thai creators make polished short SMC explainers"
+       }
+      }
+     },
+     "partner": {
+      "points": 15,
+      "max": 15,
+      "items": {
+       "sells": {
+        "points": 10,
+        "max": 10,
+        "value": null,
+        "note": "Paid community: founding spots $39/mo rising to $59/mo (pinned post), Discord link, a paid Ourbit ad"
+       },
+       "size": {
+        "points": 5,
+        "max": 5,
+        "value": 287249,
+        "note": "287249 followers; snapshot 2026-10-08"
+       }
+      }
+     }
+    },
+    "tags": [
+     "คู่แข่งที่ต้องจับตา",
+     "น่าศึกษาคอนเทนต์"
+    ],
+    "reason_th": "ชุมชนเทรด SMC ขายสมาชิกรายเดือน $39–59 ผู้ติดตาม 287K ทำรีลสอน OB/FVG สั้นๆ ที่ทำซ้ำได้ง่าย",
+    "remix_ideas_th": [
+     "รีล 15–30 วินาที อธิบาย Order Block + FVG บนกราฟทองคำ พากย์ไทย",
+     "ซีรีส์ตอบคำถามจากคอมเมนต์ เช่น ควรดูไทม์เฟรมไหนก่อนเข้าเทรด"
+    ]
+   }
   },
   {
    "id": "instagram:smart.forexpips",
@@ -2095,7 +2728,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:some_icy_tea",
@@ -2135,7 +2777,16 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:thewintertrades",
@@ -2183,47 +2834,71 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:trade_factory07",
    "handle": "trade_factory07",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/trade_factory07/",
-   "display_name": null,
-   "bio": null,
+   "display_name": "Sagar Rao",
+   "bio": "📊 Trading & Financial Education\n📈 SMC & ICT Education\n🎯 Forex • Gold • BTC\n🧠 Educational Market Analysis\n📩 Collab/Business: DM",
    "country_or_language": null,
    "niche": "trading",
    "sells": [],
    "sells_evidence": null,
-   "external_link": null,
+   "external_link": "t.me/tradefactory7",
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/p/DdYzA8Lkiuj/",
    "source_post_likes": 4300,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 8343,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "8,343",
+   "following": 5,
+   "posts": 139,
+   "avg_likes_last12": 1679,
+   "sample_size": 12,
+   "avg_views_last12": 30585,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 20.125,
+   "view_rate": 366.59,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
-   "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "breakout": 20.125,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 8343,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:tradelikeosman",
@@ -2273,16 +2948,25 @@
      "approx": true
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:trader.ravi.01",
    "handle": "trader.ravi.01",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/trader.ravi.01/",
-   "display_name": null,
-   "bio": null,
-   "country_or_language": "India (INR)",
+   "display_name": "𝙩𝙧𝙖𝙙𝙚𝙧.𝙧𝙖𝙫𝙞",
+   "bio": "🧠 Not money, I’m earning knowledge first.\n🎯 Target: Financial Freedom\n🔥 Discipline × Patience × Profit\n🔗 Trading Links 👇",
+   "country_or_language": "English (bio text)",
    "niche": "trading",
    "sells": [],
    "sells_evidence": null,
@@ -2290,31 +2974,46 @@
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/reel/DcpXsBASBNy/",
    "source_post_likes": 6402,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
    "country_or_language_evidence": "Reel shows an INR trade log",
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 766,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "766",
+   "following": 11,
+   "posts": 92,
+   "avg_likes_last12": 612,
+   "sample_size": 12,
+   "avg_views_last12": 11688,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 79.896,
+   "view_rate": 1525.85,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
-   "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "breakout": 79.896,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 766,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:trader_kuldeepp",
@@ -2363,7 +3062,16 @@
      "approx": true
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:tradevision010",
@@ -2411,129 +3119,278 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:tsugitrades",
    "handle": "tsugitrades",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/tsugitrades/",
-   "display_name": null,
-   "bio": null,
-   "country_or_language": null,
+   "display_name": "Technical Analysis Coach | Options Trading",
+   "bio": "🤝 | 5+ Trading Experience\n💰 | Helping Beginners Become Profitable\n👨🏽‍💻 | Sharing Technical Analysis Content Daily\n👇 | Join My Trading Community",
+   "country_or_language": "English (bio text)",
    "niche": "mindset",
-   "sells": [],
+   "sells": [
+    "Discord membership 'Yearly Discord Access' (whop.com checkout link)",
+    "Technical Analysis E-Book (stan.store link)"
+   ],
    "sells_evidence": null,
-   "external_link": null,
+   "external_link": "whop.com/checkout/mLPtVIjhLESyzal2h-Sy4i-cP1g-sNYR-MlgfYTNAgky7",
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/p/DYz_eeWvpjL/",
    "source_post_likes": 7100,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 176578,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "176K",
+   "following": 1136,
+   "posts": 2618,
+   "avg_likes_last12": 448,
+   "sample_size": 12,
+   "avg_views_last12": 15072,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 0.257,
+   "view_rate": 8.54,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
    "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 176578,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": 6,
+   "er_includes_comments": true,
+   "snapshot_status": "ok",
+   "avatar": "media/instagram-tsugitrades-avatar.webp?v=26831b1b92",
+   "screenshot": "media/instagram-tsugitrades-profile.webp?v=530ec13c4e",
+   "screenshot_thumb": "media/instagram-tsugitrades-profile-thumb.webp?v=1ce826ad55",
+   "screenshot_w": 1000,
+   "screenshot_h": 580,
+   "media_date": "2026-10-08",
+   "score": {
+    "scored_at": "2026-10-08",
+    "pre_growth": true,
+    "total": 40,
+    "max": 75,
+    "scaled_100": 53.3,
+    "complete": true,
+    "missing": [],
+    "grade": "C",
+    "sections": {
+     "engagement": {
+      "points": 8,
+      "max": 35,
+      "items": {
+       "er": {
+        "points": 1,
+        "max": 15,
+        "value": 0.257,
+        "note": "(avg likes 448 + avg comments 6) / 176578 followers = 0.26% over 12 posts; snapshot 2026-10-08"
+       },
+       "consistency": {
+        "points": 2,
+        "max": 10,
+        "value": 0.05,
+        "note": "median/max of views on 12 posts = 0.05 (CV 1.78); snapshot 2026-10-08"
+       },
+       "comment_quality": {
+        "points": 5,
+        "max": 10,
+        "value": null,
+        "note": "Thin but genuine: ~6 comments/post, real questions (BOS meaning, IWM level before NVDA breakout), some emoji-only, no spam (3 recent posts read)"
+       }
+      }
+     },
+     "growth": null,
+     "remix": {
+      "points": 17,
+      "max": 25,
+      "items": {
+       "topic": {
+        "points": 6,
+        "max": 10,
+        "value": null,
+        "note": "Trading, but US stocks/options rather than gold/forex"
+       },
+       "format": {
+        "points": 8,
+        "max": 10,
+        "value": null,
+        "note": "Daily watchlist chart posts and TA explainers, easy to repeat"
+       },
+       "thai_gap": {
+        "points": 3,
+        "max": 5,
+        "value": null,
+        "note": "Daily TA watchlists exist in Thai but few do it consistently"
+       }
+      }
+     },
+     "partner": {
+      "points": 15,
+      "max": 15,
+      "items": {
+       "sells": {
+        "points": 10,
+        "max": 10,
+        "value": null,
+        "note": "Bio: TA coach, whop.com checkout, TA ebook"
+       },
+       "size": {
+        "points": 5,
+        "max": 5,
+        "value": 176578,
+        "note": "176578 followers; snapshot 2026-10-08"
+       }
+      }
+     }
+    },
+    "tags": [
+     "น่าชวนเป็นพาร์ทเนอร์",
+     "น่าศึกษาคอนเทนต์"
+    ],
+    "reason_th": "โค้ชเทคนิคอลหุ้น/ออปชัน ผู้ติดตาม 176K ขายอีบุ๊กและคอร์สอยู่แล้ว คนกดไลก์ไม่เยอะแต่คอมเมนต์เป็นคำถามจริง",
+    "remix_ideas_th": [
+     "โพสต์ Watchlist รายวันแบบชาร์ตเดียว มีเส้นแนวรับแนวต้านและจุด BOS สำหรับทองคำและคู่เงินหลัก เป็นภาษาไทย",
+     "คารูเซลอธิบายศัพท์เทรดที่คนถามบ่อยในคอมเมนต์ เช่น BOS, CHoCH หน้าละคำ"
+    ]
+   }
   },
   {
    "id": "instagram:wicha.nokhong",
    "handle": "wicha.nokhong",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/wicha.nokhong/",
-   "display_name": null,
-   "bio": null,
-   "country_or_language": null,
+   "display_name": "วิชานอกห้อง",
+   "bio": "ช่วย \"คนธรรมดา\" พัฒนาตัวเองอย่างเป็นระบบ\nเพื่อให้ได้ \"ผลลัพธ์\" จนชีวิตเปลี่ยนแปลง\n.\nSecond Brain Notion Template ↓↓",
+   "country_or_language": "Thai (bio text)",
    "niche": "mindset",
-   "sells": [],
+   "sells": [
+    "E-book 'The Secret Step' (thesecretstep.framer.website)",
+    "Online class 'Modern Productivity OS' (modernproductivityos.framer.website)",
+    "Second Brain Notion template ('Second Brain Templete', second-brian-wichanokhong.netlify.app)"
+   ],
    "sells_evidence": null,
-   "external_link": null,
+   "external_link": "second-brian-wichanokhong.netlify.app",
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/p/Ddq_4IalSxw/",
    "source_post_likes": 6000,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 46457,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "46.4K",
+   "following": 0,
+   "posts": 2374,
+   "avg_likes_last12": 337,
+   "sample_size": 12,
+   "avg_views_last12": 139675,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 0.725,
+   "view_rate": 300.65,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
-   "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "breakout": 0.725,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 46457,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:xkiarni",
    "handle": "xkiarni",
    "platform": "instagram",
    "profile_url": "https://www.instagram.com/xkiarni/",
-   "display_name": null,
-   "bio": null,
+   "display_name": "Kiarni",
+   "bio": "Free discord (Live NY session daily in discord) DM “1on1” to learn",
    "country_or_language": null,
    "niche": "trading",
    "sells": [
+    "1-on-1 learning (bio: DM “1on1” to learn; not explicit)",
     "trading group"
    ],
    "sells_evidence": "Caption invites viewers to join a free trading group",
-   "external_link": null,
+   "external_link": "linktr.ee/xkiarni",
    "date_added": "2026-10-08",
    "source_post": "https://www.instagram.com/reel/DduKn6sSmo7/",
    "source_post_likes": 5871,
-   "status": null,
-   "last_seen": null,
+   "status": "ok",
+   "last_seen": "2026-10-08",
    "notes": null,
-   "latest_date": null,
-   "followers": null,
+   "latest_date": "2026-10-08",
+   "followers": 3642,
    "followers_approx": false,
-   "followers_display": null,
-   "following": null,
-   "posts": null,
-   "avg_likes_last12": null,
-   "sample_size": null,
-   "avg_views_last12": null,
-   "views_sample_size": null,
+   "followers_display": "3,642",
+   "following": 147,
+   "posts": 300,
+   "avg_likes_last12": 719,
+   "sample_size": 12,
+   "avg_views_last12": 17217,
+   "views_sample_size": 12,
    "total_likes": null,
-   "er": null,
-   "view_rate": null,
+   "er": 19.742,
+   "view_rate": 472.73,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
    "total_abs": null,
    "growth_approx": false,
-   "breakout": null,
-   "history": [],
-   "snapshot_status": null
+   "breakout": 19.742,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "followers": 3642,
+     "approx": false
+    }
+   ],
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "instagram:zak.elga",
@@ -2573,7 +3430,16 @@
    "growth_approx": false,
    "breakout": null,
    "history": [],
-   "snapshot_status": null
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": null,
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:_forexsignals_",
@@ -2621,7 +3487,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:ahormozi",
@@ -2669,7 +3544,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:amandalyncuster",
@@ -2717,7 +3601,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:anggatradergold",
@@ -2765,7 +3658,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:astorinvest",
@@ -2813,7 +3715,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:austinhankwitz",
@@ -2861,7 +3772,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:chadiotrades",
@@ -2907,7 +3827,104 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": "media/tiktok-chadiotrades-avatar.webp?v=6f0abf8556",
+   "screenshot": "media/tiktok-chadiotrades-profile.webp?v=16980f70a0",
+   "screenshot_thumb": "media/tiktok-chadiotrades-profile-thumb.webp?v=15c0447552",
+   "screenshot_w": 1000,
+   "screenshot_h": 580,
+   "media_date": "2026-10-08",
+   "score": {
+    "scored_at": "2026-10-08",
+    "pre_growth": true,
+    "total": 33,
+    "max": 75,
+    "scaled_100": 44.0,
+    "complete": false,
+    "missing": [
+     "engagement.comment_quality"
+    ],
+    "grade": null,
+    "sections": {
+     "engagement": {
+      "points": 11,
+      "max": 35,
+      "items": {
+       "er": {
+        "points": 1,
+        "max": 15,
+        "value": 0.063,
+        "note": "avg views 1300 / 2076333 followers = 0.063% over 9 videos (TikTok rule); views: 9 non-pinned grid view counts from the public profile on 2026-10-08; pinned positions [1, 2, 3] excluded; snapshot 2026-10-08"
+       },
+       "consistency": {
+        "points": 10,
+        "max": 10,
+        "value": 0.667,
+        "note": "median/max of views on 9 posts = 0.67 (CV 0.20); views: 9 non-pinned grid view counts from the public profile on 2026-10-08; pinned positions [1, 2, 3] excluded; snapshot 2026-10-08"
+       },
+       "comment_quality": {
+        "points": null,
+        "max": 10,
+        "value": null,
+        "note": "Not collected: TikTok captcha blocked video pages on 2026-10-08"
+       }
+      }
+     },
+     "growth": null,
+     "remix": {
+      "points": 21,
+      "max": 25,
+      "items": {
+       "topic": {
+        "points": 8,
+        "max": 10,
+        "value": null,
+        "note": "SMC futures/forex trading memes"
+       },
+       "format": {
+        "points": 9,
+        "max": 10,
+        "value": null,
+        "note": "Day-trading meme format, very repeatable"
+       },
+       "thai_gap": {
+        "points": 4,
+        "max": 5,
+        "value": null,
+        "note": "Thai trading memes are rare"
+       }
+      }
+     },
+     "partner": {
+      "points": 1,
+      "max": 15,
+      "items": {
+       "sells": {
+        "points": 0,
+        "max": 10,
+        "value": null,
+        "note": "Bio: \"i don't have anything to sell\""
+       },
+       "size": {
+        "points": 1,
+        "max": 5,
+        "value": 2076333,
+        "note": "2076333 followers; snapshot 2026-10-08"
+       }
+      }
+     }
+    },
+    "tags": [
+     "น่าศึกษาคอนเทนต์"
+    ],
+    "reason_th": "มีมเทรด SMC ผู้ติดตาม 2.1M คลิปปักหมุดได้ 1.2–2.5M วิว แต่คลิปล่าสุดได้แค่ประมาณ 1K วิว และไม่ขายอะไร",
+    "remix_ideas_th": [
+     "มีมเทรดสั้นแบบ POV ภาษาไทย ล้อสถานการณ์ที่เทรดเดอร์ไทยเจอ เช่นโดน SL ก่อนข่าวออก",
+     "ทำเพลย์ลิสต์มีมไว้ดึงคนดูใหม่ แล้วพาไปต่อที่คอนเทนต์สอน"
+    ]
+   }
   },
   {
    "id": "tiktok:coinbureau",
@@ -2955,7 +3972,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:crypto.psychopath",
@@ -3003,7 +4029,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:cryptorobles",
@@ -3051,7 +4086,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:cryptotrading_insights",
@@ -3097,7 +4141,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:cryptowendyo",
@@ -3145,7 +4198,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:daytrading.gold",
@@ -3193,7 +4255,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:disciplinepaystt",
@@ -3241,7 +4312,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:emeraldforex_",
@@ -3289,7 +4369,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:emimonies",
@@ -3337,7 +4426,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:errol_coleman",
@@ -3385,7 +4483,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:figuringoutmoney",
@@ -3431,7 +4538,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:financeunfolded",
@@ -3479,7 +4595,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:fxalexg",
@@ -3527,7 +4652,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:garland.trader",
@@ -3575,7 +4709,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:garyvee",
@@ -3623,7 +4766,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:goldontop",
@@ -3669,7 +4821,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:grahamstephan",
@@ -3715,7 +4876,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:humbledtrader",
@@ -3763,7 +4933,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:humphreytalks",
@@ -3811,7 +4990,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:imyfx",
@@ -3859,7 +5047,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:investopedia",
@@ -3905,7 +5102,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:jaifxtrader",
@@ -3951,7 +5157,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:jenn_wiemann",
@@ -3999,7 +5214,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:kasimfxtrader",
@@ -4045,7 +5269,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:kianadanial",
@@ -4093,7 +5326,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:levelupwithantoinette",
@@ -4139,7 +5381,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:marktilbury",
@@ -4185,7 +5436,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:mastermoneyco",
@@ -4233,7 +5493,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:quikmotivationn",
@@ -4281,7 +5550,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:rajabanks786",
@@ -4327,7 +5605,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:raynerteo",
@@ -4373,7 +5660,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:realumarashraf",
@@ -4421,7 +5717,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:rocketsignals",
@@ -4469,7 +5774,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:seandekmar",
@@ -4515,7 +5829,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:sierraxliyah",
@@ -4563,7 +5886,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:stephtradez",
@@ -4611,7 +5943,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:teambulltrading",
@@ -4659,7 +6000,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:thedailytrader",
@@ -4707,7 +6057,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:thenvstr",
@@ -4755,7 +6114,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:tmktrades",
@@ -4801,7 +6169,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:tomcrownofficial",
@@ -4847,7 +6224,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:tori.trades",
@@ -4895,7 +6281,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:virtualbacon",
@@ -4943,7 +6338,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:xauusd8960",
@@ -4989,7 +6393,16 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   },
   {
    "id": "tiktok:yourrichbff",
@@ -5037,7 +6450,21 @@
      "approx": false
     }
    ],
-   "snapshot_status": "ok"
+   "avg_comments_last12": null,
+   "er_includes_comments": false,
+   "snapshot_status": "ok",
+   "avatar": null,
+   "screenshot": null,
+   "screenshot_thumb": null,
+   "screenshot_w": null,
+   "screenshot_h": null,
+   "media_date": null,
+   "score": null
   }
+ ],
+ "score_tags": [
+  "น่าชวนเป็นพาร์ทเนอร์",
+  "น่าศึกษาคอนเทนต์",
+  "คู่แข่งที่ต้องจับตา"
  ]
 }
