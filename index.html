@@ -36,11 +36,12 @@ dialog.lb .bar{position:fixed;top:8px;right:10px;display:flex;gap:8px}
 dialog.lb .bar a,dialog.lb .bar button{font:inherit;font-size:14px;font-weight:700;color:#0d0f12;background:var(--accent);border:0;border-radius:999px;padding:5px 12px;text-decoration:none;cursor:pointer}
 .scorebar{display:flex;align-items:center;gap:10px;background:#11141a;border-radius:12px;padding:8px 10px}
 .grade{flex:0 0 44px;height:44px;border-radius:10px;display:grid;place-items:center;font-size:22px;font-weight:900;color:#0d0f12}
-.grade.A{background:#6be39a}.grade.B{background:#c7f36b}.grade.C{background:#ffd166}.grade.D{background:#ff7b7b}.grade.na{background:#2b303a;color:#d8dce3;font-size:13px}
+.grade.A{background:#6be39a}.grade.B{background:#c7f36b}.grade.C{background:#ffd166}.grade.D{background:#ff7b7b}.grade.na{background:#2b303a;color:#d8dce3;font-size:13px}.grade.stale{flex:0 0 auto;max-width:96px;padding:0 6px;text-align:center;line-height:1.2;background:#3a2f1a;color:#ffd166;font-size:12px;font-weight:800}
 .scoretxt b{font-size:18px;font-variant-numeric:tabular-nums}.scoretxt div{color:var(--muted);font-size:12px}
 .pg{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:#ffd166;border:1px solid #6b5520;border-radius:6px;padding:0 5px;margin-left:4px;vertical-align:2px}
 .tags{display:flex;gap:6px;flex-wrap:wrap}.tag{font-size:12px;font-weight:700;border-radius:999px;padding:2px 9px;background:#1f2a14;color:var(--accent);border:1px solid #3d5220}
 .reason{font-size:13.5px;color:#f4f6f8}
+.ideasbox{background:#11141a;border-radius:10px;padding:6px 10px}.ideasbox h4{margin:6px 0 2px;font-size:12.5px;color:var(--muted)}.ideasbox .n{color:var(--muted);font-size:11px}
 details.bd{font-size:13px;background:#11141a;border-radius:10px;padding:6px 10px}
 details.bd summary{cursor:pointer;color:var(--accent);font-weight:700}
 .bd h4{margin:8px 0 2px;font-size:13px;display:flex;justify-content:space-between}
@@ -71,14 +72,14 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
 </style></head><body><main>
 <header>
 <h1>Influencer Tracker</h1>
-<p>ติดตามครีเอเตอร์สาย Trading · Investing · Mindset บน Instagram และ TikTok เพื่อหาคน collab / IB, ดูคอนเทนต์ที่โตเร็ว และจับตาคู่แข่ง</p>
+<p>ติดตามครีเอเตอร์สาย Trading · Investing · Mindset บน Instagram และ TikTok เพื่อหาไอเดียคอนเทนต์ เทคนิคดึง engagement ที่เอามาใช้ได้ และจับตาคู่แข่ง</p>
 <p>อัปเดตล่าสุด: <span class="updated" id="updated">—</span> · <span id="totals"></span></p>
 </header>
 <div class="controls">
  <div class="row"><span class="lbl">เรียงตาม</span>
   <select id="sort">
    <option value="wow">โตเร็วที่สุด (ผู้ติดตาม % ต่อสัปดาห์)</option>
-   <option value="er">Engagement สูงสุด (ไลก์เฉลี่ย ÷ ผู้ติดตาม)</option>
+   <option value="er">Engagement สูงสุด (มัธยฐาน ÷ ผู้ติดตาม)</option>
    <option value="breakout">ดาวรุ่ง (Breakout)</option>
    <option value="score">คะแนน (Score)</option>
    <option value="followers">ผู้ติดตามมากที่สุด</option>
@@ -95,11 +96,15 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
 </div>
 <details class="help"><summary>วิธีอ่านตัวเลข</summary><ul>
 <li><b>โตต่อสัปดาห์ (WoW)</b> = % ผู้ติดตามที่เปลี่ยนจากสแนปช็อตก่อนหน้า (ห่างกันอย่างน้อย 5 วัน) · <b>โตรวม</b> = เทียบกับสแนปช็อตแรกที่เก็บได้ ถ้ามีสแนปช็อตเดียวจะแสดง —</li>
-<li><b>ER (Engagement rate)</b> = (ไลก์เฉลี่ย + คอมเมนต์เฉลี่ยถ้าเก็บได้) ของโพสต์ล่าสุด ~12 โพสต์ ÷ ผู้ติดตาม × 100 (แสดงเมื่อรู้ทั้งสองค่า)</li>
+<li><b>ER (Engagement rate)</b> = <b>มัธยฐาน</b>ของ (ไลก์ + คอมเมนต์ถ้าเก็บได้) ต่อโพสต์ ของโพสต์ล่าสุด ~12 โพสต์ที่ไม่ได้ปักหมุด ÷ ผู้ติดตาม × 100 · ใช้มัธยฐานเพื่อไม่ให้คลิปไวรัลคลิปเดียวดันค่าขึ้น (ไลก์เฉลี่ย/วิวเฉลี่ยยังแสดงไว้ในการ์ด) · ต้องเห็นตัวเลขอย่างน้อย 6 โพสต์ ถ้าไม่ถึงจะขึ้นว่า "ตัวอย่างน้อย" และไม่คิด ER · โพสต์ปักหมุดไม่นับเสมอ · ถ้าโพสต์ล่าสุด (ไม่นับปักหมุด) เก่ากว่า 60 วัน จะขึ้นว่า "ไม่ได้โพสต์เกิน 60 วัน" และไม่คิด ER</li>
 <li><b>ดาวรุ่ง (Breakout)</b> = เฉพาะบัญชีที่มีผู้ติดตามไม่ถึง 100K · คะแนน = ER% + การโต WoW% (ถ้าโตเป็นบวก) · บัญชีเล็กที่คนมีส่วนร่วมสูงและกำลังโตจะขึ้นก่อน</li>
-<li><b>อัตราการดู</b> = วิวเฉลี่ย ~12 โพสต์ล่าสุด ÷ ผู้ติดตาม × 100</li>
+<li><b>วิว/ผู้ติดตาม</b> (TikTok) = <b>มัธยฐาน</b>วิวของคลิปล่าสุด ~12 คลิปที่ไม่ได้ปักหมุด ÷ ผู้ติดตาม × 100 (TikTok ใช้ค่านี้เป็น ER)</li>
 <li>เครื่องหมาย <b>≈</b> = หน้าโปรไฟล์แสดงเป็นตัวย่อ (เช่น 1.2M) จึงไม่ใช่ตัวเลขเป๊ะ · <b>—</b> = ไม่เห็นตัวเลขนั้นจริง เราไม่ประมาณค่าเอง</li>
-<li><b>คะแนน (Score)</b> เต็ม 100 = Engagement 35 (ER 15 · ความสม่ำเสมอของวิว 10 · คุณภาพคอมเมนต์ 10) + Growth 25 + Remix 25 (หัวข้อที่คนต้องการ 10 · รูปแบบทำซ้ำได้ 10 · ช่องว่างตลาดไทย 5) + Partner 15 (ขายคอร์ส/สัญญาณ/ลิงก์โบรกเกอร์-พร็อพ 10 · ขนาดที่เข้าถึงได้ 5)</li>
+<li><b>คะแนน (Score)</b> เต็ม 100 = Engagement 35 (ER 15 · ความสม่ำเสมอของวิว 10 · คุณภาพคอมเมนต์ 10) + Growth 25 + Remix 25 (หัวข้อที่คนต้องการ 10 · รูปแบบทำซ้ำได้ 10 · ช่องว่างตลาดไทย 5) + เทคนิคดึง Engagement 15 (Hook/CTA ที่ทำซ้ำได้ เช่น คำถาม โพล ควิซ "คอมเมนต์คำนี้" ซีรีส์ ชาเลนจ์ 10 · คนดูตอบรับจริง 5)</li>
+<li><b>ER เทียบตามขนาดบัญชี</b>: nano &lt;10K · micro 10K–100K · mid 100K–500K · macro 500K–1M · mega 1M+ · บัญชีใหญ่ ER ต่ำเป็นปกติ จึงให้คะแนนเทียบกับค่าปกติของขนาดเดียวกัน (ดูช่วงคะแนนในหมายเหตุของแต่ละการ์ด)</li>
+<li>ข้อที่ให้คะแนนไม่ได้ตามกติกา (เช่น ER ตัวอย่างน้อย ไม่ได้โพสต์เกิน 60 วัน ไม่มี CTA ให้วัดการตอบรับ หรือ TikTok ไม่มีข้อมูลคอมเมนต์) จะ<b>ไม่นับ</b>ในคะแนนเต็ม และมีหมายเหตุบอกในการ์ด</li>
+<li><b>ไม่ได้โพสต์เกิน 60 วัน</b> = โพสต์ล่าสุด (ไม่นับปักหมุด) เก่ากว่า 60 วัน จึง<b>ไม่ให้เกรด</b> แต่ยังแสดงคะแนนแต่ละหมวดและไอเดียไว้ · เวลาเรียงตามคะแนนจะอยู่ต่อจากบัญชีที่มีเกรด</li>
+<li><b>คู่แข่งที่ต้องจับตา</b> = หัวข้อตรงกับเรา (8+/10) และโพสต์ภายใน 30 วัน และมีการเข้าถึงต่อเนื่อง: คะแนน ER (มัธยฐาน) 9+ หรือ ผู้ติดตาม 10K+ ที่ความสม่ำเสมอของวิว 6+ · บัญชีเล็กกว่า 10K ต้องผ่านทาง ER เท่านั้น</li>
 <li><b>PRE-GROWTH</b> = ยังไม่มีสแนปช็อตสัปดาห์ที่ 2 จึงยังให้คะแนน Growth ไม่ได้ · แสดงคะแนนเต็ม 75 และแปลงเป็นเต็ม 100 · <b>เกรดคิดจากคะแนนที่แปลงเป็นเต็ม 100</b>: A 80+ · B 65–79 · C 50–64 · D ต่ำกว่า 50</li>
 <li>ถ้ายังให้คะแนนบางข้อไม่ได้ (ข้อมูลไม่พอ) จะขึ้นว่า "ไม่ครบ" และยังไม่ให้เกรด · บัญชีที่ยังไม่ได้ให้คะแนนจะไม่แสดงคะแนนและอยู่ท้ายสุดเมื่อเรียงตามคะแนน</li>
 <li>เก็บข้อมูลสัปดาห์ละครั้งจากหน้าสาธารณะเท่านั้น</li>
@@ -113,21 +118,23 @@ footer{margin-top:40px;color:var(--muted);font-size:13px}
 const NICHE_TH={trading:"Trading",investing:"Investing",mindset:"Mindset"};
 const PLAT_TH={instagram:"Instagram",tiktok:"TikTok"};
 const state={sort:"wow",plat:"all",niche:"all",tag:"all",q:""};
-const SEC_TH={engagement:"Engagement",growth:"Growth",remix:"Remix",partner:"Partner"};
-const ITEM_TH={er:"Engagement rate",consistency:"ความสม่ำเสมอของวิว",comment_quality:"คุณภาพคอมเมนต์",follower_growth:"โตต่อสัปดาห์",breakout_post:"โพสต์ breakout (>3x)",topic:"หัวข้อที่คนต้องการ",format:"รูปแบบทำซ้ำได้",thai_gap:"ช่องว่างตลาดไทย",sells:"ขายคอร์ส/สัญญาณ/ลิงก์",size:"ขนาดที่เข้าถึงได้"};
+const SEC_TH={engagement:"Engagement",growth:"Growth",remix:"Remix",tactics:"เทคนิคดึง Engagement"};
+const ITEM_TH={er:"Engagement rate",consistency:"ความสม่ำเสมอของวิว",comment_quality:"คุณภาพคอมเมนต์",follower_growth:"โตต่อสัปดาห์",breakout_post:"โพสต์ breakout (>3x)",topic:"หัวข้อที่คนต้องการ",format:"รูปแบบทำซ้ำได้",thai_gap:"ช่องว่างตลาดไทย",hooks_ctas:"Hook/CTA ที่ทำซ้ำได้",audience_response:"คนดูตอบรับ CTA จริง"};
 const num=v=>v==null?"—":(Math.round(v*10)/10).toString();
 function scoreBlock(sc){if(!sc)return"";
- const g=sc.grade?`<div class="grade ${sc.grade}">${sc.grade}</div>`:`<div class="grade na">ไม่ครบ</div>`;
- const main=sc.pre_growth?`<b>${num(sc.scaled_100)}</b>/100<span class="pg">pre-growth</span><div>${num(sc.total)}/75 · ยังไม่รวม Growth${sc.complete?"":` · ขาด ${sc.missing.length} ข้อ`}</div>`
-  :`<b>${num(sc.total)}</b>/100<div>${sc.complete?"ครบทุกหมวด":`ขาด ${sc.missing.length} ข้อ`}</div>`;
+ const g=sc.grade?`<div class="grade ${sc.grade}">${sc.grade}</div>`:sc.status==="stale"?`<div class="grade stale" title="${esc(sc.stale_note||"")}">ไม่ได้โพสต์เกิน 60 วัน</div>`:`<div class="grade na">ไม่ครบ</div>`;
+ const ex=(sc.excluded||[]).length?` · ไม่นับ ${sc.excluded.length} ข้อ (ดูหมายเหตุ)`:"";
+ const main=sc.pre_growth?`<b>${num(sc.scaled_100)}</b>/100<span class="pg">pre-growth</span><div>${num(sc.total)}/${sc.max} · ยังไม่รวม Growth${ex}${sc.complete?"":` · ขาด ${sc.missing.length} ข้อ`}</div>`
+  :`<b>${num(sc.scaled_100)}</b>/100<div>${num(sc.total)}/${sc.max}${ex} · ${sc.complete?"ครบทุกหมวด":`ขาด ${sc.missing.length} ข้อ`}</div>`;
  const secs=Object.entries(sc.sections||{}).map(([k,v])=>v?`<h4><span>${SEC_TH[k]||esc(k)}</span><span class="pts">${num(v.points)}/${v.max}</span></h4>`+
-  Object.entries(v.items).map(([ik,it])=>`<div class="it"><span>${ITEM_TH[ik]||esc(ik)}</span><span class="pts">${it.points==null?"—":num(it.points)}/${it.max}</span>${it.note?`<span class="n">${esc(it.note)}</span>`:""}</div>`).join("")
+  Object.entries(v.items).map(([ik,it])=>`<div class="it"><span>${ITEM_TH[ik]||esc(ik)}</span><span class="pts">${it.na?"ไม่นับ":it.points==null?"—":num(it.points)+"/"+it.max}</span>${it.note?`<span class="n">${esc(it.note)}</span>`:""}</div>`).join("")
   :`<h4><span>${SEC_TH[k]||esc(k)}</span><span class="pts">—/25</span></h4><div class="it"><span class="n">รอสแนปช็อตสัปดาห์ที่ 2</span></div>`).join("");
  return`<div class="scorebar">${g}<div class="scoretxt">${main}</div></div>
  ${(sc.tags||[]).length?`<div class="tags">${sc.tags.map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div>`:""}
- ${sc.reason_th?`<div class="reason">${esc(sc.reason_th)}</div>`:""}
+ ${sc.why_th?`<div class="reason">${esc(sc.why_th)}</div>`:""}
  <details class="bd"><summary>ดูคะแนนแต่ละหมวด${sc.scored_at?` · ให้คะแนน ${esc(sc.scored_at)}`:""}</summary>${secs}
- ${(sc.remix_ideas_th||[]).length?`<h4><span>ไอเดียรีมิกซ์ (ไอเดีย/รูปแบบ ไม่ก๊อปเนื้อหา)</span></h4><ul class="ideas">${sc.remix_ideas_th.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}</details>`;}
+ </details>
+ ${(sc.ideas_th||[]).length||sc.tactic_th?`<div class="ideasbox">${(sc.ideas_th||[]).length?`<h4><span>ไอเดียคอนเทนต์</span></h4><ul class="ideas">${sc.ideas_th.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}${sc.tactic_th?`<h4><span>ไอเดียเทคนิคดึง engagement / การตลาด</span></h4><ul class="ideas"><li>${esc(sc.tactic_th)}</li></ul>`:""}<div class="n">ไอเดียและรูปแบบเท่านั้น ไม่ก๊อปเนื้อหา</div></div>`:""}`;}
 let DATA=null;
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const safeUrl=u=>/^https?:\/\//i.test(u||"")?u:null;
@@ -149,7 +156,7 @@ function spark(h){
 function card(a,i){
  const init=(a.display_name||a.handle||"?").replace(/[^\p{L}\p{N}]/gu,"").charAt(0).toUpperCase()||"?";
  const prof=safeUrl(a.profile_url),src=safeUrl(a.source_post),ext=safeUrl(a.external_link);
- const status=a.snapshot_status&&!["ok","partial"].includes(a.snapshot_status)?`<span class="badge warn">${esc(a.snapshot_status)}</span>`:"";
+ const status=a.profile_status==="not_found"?`<span class="badge warn" title="${esc(a.profile_status_note||"")}">ไม่พบโปรไฟล์ (not_found)</span>`:a.snapshot_status&&!["ok","partial"].includes(a.snapshot_status)?`<span class="badge warn">${esc(a.snapshot_status)}</span>`:"";
  const sells=(a.sells||[]).length?esc(a.sells.join(", ")):"—";
  return`<article class="card"><span class="rank">#${i+1}</span>
  <div class="top">${localMedia(a.avatar)?`<img class="avatar" src="${esc(a.avatar)}" alt="" width="46" height="46" loading="lazy" data-init="${esc(init)}" data-bg="${a.platform==="tiktok"?"#25f4ee":"#c7f36b"}" onerror="avFail(this)">`:`<div class="avatar" style="background:${a.platform==="tiktok"?"#25f4ee":"#c7f36b"}">${esc(init)}</div>`}
@@ -159,10 +166,10 @@ function card(a,i){
  ${scoreBlock(a.score)}
  ${localMedia(a.screenshot)&&localMedia(a.screenshot_thumb)?`<a class="shot" href="${esc(a.screenshot)}" data-lb="${esc(a.screenshot)}" target="_blank" rel="noopener"><img src="${esc(a.screenshot_thumb)}" alt="ภาพหน้าโปรไฟล์ @${esc(a.handle)}" loading="lazy">${a.media_date?`<span class="sdate">ภาพ ${esc(a.media_date)}</span>`:""}</a>`:""}
  <div class="stats">
-  <div class="stat"><b>${followersCell(a)}</b><span>ผู้ติดตาม</span></div>
+  <div class="stat"><b>${followersCell(a)}</b><span>ผู้ติดตาม${a.size_tier?` · ${esc(a.size_tier)}`:""}</span></div>
   <div class="stat">${pct(a.wow_pct,a.growth_approx)}<span>โต/สัปดาห์</span></div>
   <div class="stat">${pct(a.total_pct,a.growth_approx)}<span>โตรวม</span></div>
-  <div class="stat"><b>${a.er==null?"—":(a.followers_approx?"≈":"")+a.er.toFixed(2)+"%"}</b><span>ER</span></div>
+  <div class="stat"><b>${a.er==null?(a.er_note==="stale"?'<span style="font-size:12px">ไม่ได้โพสต์เกิน 60 วัน</span>':a.er_note?'<span style="font-size:12px">ตัวอย่างน้อย</span>':"—"):(a.followers_approx?"≈":"")+a.er.toFixed(2)+"%"}</b><span>${a.platform==="tiktok"?"วิว/ผู้ติดตาม":"ER"}${a.er_basis==="median"?" (มัธยฐาน)":" (เฉลี่ย)"}</span></div>
   <div class="stat"><b>${fmt(a.avg_likes_last12)}</b><span>ไลก์เฉลี่ย${a.sample_size?` (${a.sample_size})`:""}</span></div>
   <div class="stat"><b>${fmt(a.avg_views_last12)}</b><span>วิวเฉลี่ย${a.views_sample_size?` (${a.views_sample_size})`:""}</span></div>
  </div>
@@ -172,7 +179,7 @@ function card(a,i){
  <div class="kv"><span>โพสต์ทั้งหมด:</span> ${fmt(a.posts)} · <span>กำลังติดตาม:</span> ${fmt(a.following)}${a.breakout!=null?` · <span>Breakout:</span> ${a.breakout.toFixed(2)}`:""}</div>
  <div class="links">${prof?`<a href="${esc(prof)}" target="_blank" rel="noopener">เปิดโปรไฟล์ ↗</a>`:"<span></span>"}${src?`<a href="${esc(src)}" target="_blank" rel="noopener">โพสต์ที่เจอ ↗</a>`:ext?`<a href="${esc(ext)}" target="_blank" rel="noopener nofollow">ลิงก์ในไบโอ ↗</a>`:""}</div>
  </article>`;}
-const SORTS={score:a=>a.score?a.score.scaled_100:null,wow:a=>a.wow_pct,er:a=>a.er,breakout:a=>a.breakout,followers:a=>a.followers,total:a=>a.total_pct,views:a=>a.avg_views_last12,added:a=>a.date_added?Date.parse(a.date_added):null};
+const SORTS={score:a=>!a.score||a.score.scaled_100==null?null:a.score.grade?a.score.scaled_100:a.score.status==="stale"?a.score.scaled_100-1000:a.score.scaled_100-2000,wow:a=>a.wow_pct,er:a=>a.er,breakout:a=>a.breakout,followers:a=>a.followers,total:a=>a.total_pct,views:a=>a.avg_views_last12,added:a=>a.date_added?Date.parse(a.date_added):null};
 function render(){
  const q=state.q.trim().toLowerCase(),f=SORTS[state.sort];
  let list=DATA.accounts.filter(a=>(state.plat==="all"||a.platform===state.plat)&&(state.niche==="all"||a.niche===state.niche)&&(state.tag==="all"||(a.score&&(a.score.tags||[]).includes(state.tag)))&&
