@@ -1243,7 +1243,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": "forex"
  },
  {
   "id": "tiktok:ahormozi",
@@ -1264,7 +1265,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": null
  },
  {
   "id": "tiktok:amandalyncuster",
@@ -1285,7 +1287,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": null
  },
  {
   "id": "tiktok:anggatradergold",
@@ -1295,7 +1298,7 @@
   "display_name": "anggatradergold",
   "bio": "❌TIDAK OPEN TITIP DANA❌\nTIDAK BUKA KELAS BERBAYAR🫵🏻\n\n👇🏻Belajar Trading Bareng Gratis \n(Dibimbing dari awal)",
   "country_or_language": "Indonesian (bio language)",
-  "niche": null,
+  "niche": "trading",
   "sells": [
    "Free trading guidance (bio says no fund management, no paid classes)"
   ],
@@ -1306,7 +1309,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": "gold, forex"
  },
  {
   "id": "tiktok:astorinvest",
@@ -1327,7 +1331,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": null
  },
  {
   "id": "tiktok:austinhankwitz",
@@ -1348,7 +1353,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": null
  },
  {
   "id": "tiktok:chadiotrades",
@@ -1367,7 +1373,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "Bio: 'i don't have anything to sell'; 7-figure funded trader, SMC futures & forex"
+  "notes": "Bio: 'i don't have anything to sell'; 7-figure funded trader, SMC futures & forex",
+  "sub_niche": "forex"
  },
  {
   "id": "tiktok:coinbureau",
@@ -1377,7 +1384,7 @@
   "display_name": "Coin Bureau",
   "bio": "Crypto Educators 👨‍🏫\nCoinBureau.com\nCoin Bureau Telegram\n⬇️",
   "country_or_language": "English (bio language)",
-  "niche": null,
+  "niche": "investing",
   "sells": [
    "Crypto education site CoinBureau.com + Telegram (bio)"
   ],
@@ -1388,7 +1395,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": "crypto"
  },
  {
   "id": "tiktok:crypto.psychopath",
@@ -1398,7 +1406,7 @@
   "display_name": "crypto.psychopath",
   "bio": "❗No financial advice❗\n𝐞𝐁𝐨𝐨𝐤 & 𝐌𝐄𝐗𝐂 𝐒𝐞𝐭𝐮𝐩 𝐟𝐨𝐫 𝐓𝐫𝐚𝐝𝐢𝐧𝐠",
   "country_or_language": "English (bio language)",
-  "niche": "trading",
+  "niche": "investing",
   "sells": [
    "eBook & MEXC exchange setup (bio)"
   ],
@@ -1409,7 +1417,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "MEXC mention suggests exchange referral"
+  "notes": "MEXC mention suggests exchange referral",
+  "sub_niche": "crypto, trading"
  },
  {
   "id": "tiktok:cryptorobles",
@@ -1419,7 +1428,7 @@
   "display_name": "Crypto Robles",
   "bio": "Crypto Trader \nNFA\nFor 100x memes 🐸👇",
   "country_or_language": "English (bio language)",
-  "niche": null,
+  "niche": "investing",
   "sells": [
    "cryptorobles.com (bio link; '100x memes')"
   ],
@@ -1430,7 +1439,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": "crypto"
  },
  {
   "id": "tiktok:cryptotrading_insights",
@@ -1440,7 +1450,7 @@
   "display_name": "Crypto Trading Insights",
   "bio": "🚫 S/R, patterns & indicators don’t work. Markets are algorithmic. Learn ICT SMC",
   "country_or_language": "English (bio language)",
-  "niche": "trading",
+  "niche": "investing",
   "sells": [],
   "sells_evidence": null,
   "external_link": null,
@@ -1449,7 +1459,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "Bio promotes ICT/SMC"
+  "notes": "Bio promotes ICT/SMC",
+  "sub_niche": "crypto, trading"
  },
  {
   "id": "tiktok:cryptowendyo",
@@ -1459,7 +1470,7 @@
   "display_name": "Wendy O✨",
   "bio": "Los Angeles ✨ Crypto News Shock Jock\n📺 Get More 👇",
   "country_or_language": "USA, Los Angeles (bio)",
-  "niche": null,
+  "niche": "investing",
   "sells": [
    "Partner/affiliate links (cryptowendyo.com/partners)"
   ],
@@ -1470,7 +1481,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": "crypto"
  },
  {
   "id": "tiktok:daytrading.gold",
@@ -1480,7 +1492,7 @@
   "display_name": "Day Trading Gold",
   "bio": "Gold specialist 🏆\nClick here 👇🏼 to learn from me directly",
   "country_or_language": "English (bio language)",
-  "niche": null,
+  "niche": "trading",
   "sells": [
    "Direct mentoring via day-trading-gold.com (bio: 'learn from me directly')"
   ],
@@ -1491,7 +1503,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": "gold, forex"
  },
  {
   "id": "tiktok:disciplinepaystt",
@@ -1512,7 +1525,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": "mindset"
  },
  {
   "id": "tiktok:emeraldforex_",
@@ -1522,7 +1536,7 @@
   "display_name": "Emmanuel Ochekwu",
   "bio": "Forex Trader | Crypto Analyst 📊\nMindset. Markets. Execution.\n👇 Join my Discord",
   "country_or_language": "English (bio language)",
-  "niche": "mindset",
+  "niche": "trading",
   "sells": [
    "Discord community (bio: 'Join my Discord'; paid/free not stated)"
   ],
@@ -1533,7 +1547,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": "forex, crypto, mindset"
  },
  {
   "id": "tiktok:emimonies",
@@ -1543,7 +1558,7 @@
   "display_name": "Emilien Bejuandem",
   "bio": "Forex Trader ✧ Influencer ✧ Travel\nInspiring Wealth Creation & Soft Life💕\ntengbejuandem@gmail.com\nNO INVESTMENTS❌\nJoin my Team⬇️",
   "country_or_language": "English (bio language)",
-  "niche": null,
+  "niche": "trading",
   "sells": [
    "'Join my Team' (linktr.ee); bio: 'NO INVESTMENTS'"
   ],
@@ -1554,7 +1569,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": "forex"
  },
  {
   "id": "tiktok:errol_coleman",
@@ -1575,7 +1591,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": null
  },
  {
   "id": "tiktok:figuringoutmoney",
@@ -1594,7 +1611,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "linktr.ee link (contents not checked)"
+  "notes": "linktr.ee link (contents not checked)",
+  "sub_niche": null
  },
  {
   "id": "tiktok:financeunfolded",
@@ -1615,7 +1633,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": null
  },
  {
   "id": "tiktok:fxalexg",
@@ -1636,7 +1655,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": "forex"
  },
  {
   "id": "tiktok:garland.trader",
@@ -1646,7 +1666,7 @@
   "display_name": "Ethan Garland",
   "bio": "💎 6 Figure currency trader. \n\n👇 Join my trading room for free",
   "country_or_language": "English (bio language)",
-  "niche": null,
+  "niche": "trading",
   "sells": [
    "Free trading room (Discord link)"
   ],
@@ -1657,7 +1677,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": "forex"
  },
  {
   "id": "tiktok:garyvee",
@@ -1678,7 +1699,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": null
  },
  {
   "id": "tiktok:goldontop",
@@ -1688,7 +1710,7 @@
   "display_name": "GoldOderflow🏆",
   "bio": "Abonnez-Vous! :) \nOn apprend, on change, on évolue...\n\n🏆 Gold - Heatmap - Footprint - liquidité- Divergence- Corrélation",
   "country_or_language": "French (bio language)",
-  "niche": null,
+  "niche": "trading",
   "sells": [],
   "sells_evidence": null,
   "external_link": null,
@@ -1697,7 +1719,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "Small account; gold order-flow"
+  "notes": "Small account; gold order-flow",
+  "sub_niche": "gold"
  },
  {
   "id": "tiktok:grahamstephan",
@@ -1716,7 +1739,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "Bio points to YouTube + Iced Coffee Hour podcast"
+  "notes": "Bio points to YouTube + Iced Coffee Hour podcast",
+  "sub_niche": null
  },
  {
   "id": "tiktok:humbledtrader",
@@ -1737,7 +1761,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": null
  },
  {
   "id": "tiktok:humphreytalks",
@@ -1758,7 +1783,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": null
  },
  {
   "id": "tiktok:imyfx",
@@ -1779,7 +1805,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "Broker link in bio = likely IB/affiliate relationship"
+  "notes": "Broker link in bio = likely IB/affiliate relationship",
+  "sub_niche": "gold, mindset"
  },
  {
   "id": "tiktok:investopedia",
@@ -1798,7 +1825,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": null
  },
  {
   "id": "tiktok:jaifxtrader",
@@ -1808,7 +1836,7 @@
   "display_name": "Jai F𝑥 Trader",
   "bio": "\"1 Day 1½ slice of cake\"\nSND & Special Pattern Trader",
   "country_or_language": "English (bio language)",
-  "niche": null,
+  "niche": "trading",
   "sells": [],
   "sells_evidence": null,
   "external_link": "tiktok.com/@jaifxtrader",
@@ -1817,7 +1845,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "Small account (15 videos)"
+  "notes": "Small account (15 videos)",
+  "sub_niche": "gold, forex"
  },
  {
   "id": "tiktok:jenn_wiemann",
@@ -1838,7 +1867,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": "forex"
  },
  {
   "id": "tiktok:kasimfxtrader",
@@ -1848,7 +1878,7 @@
   "display_name": "Kasim FX Trader✅",
   "bio": "🏆 Fx NEWS Trader 🏆\n❤️ XAUUSD ❤️",
   "country_or_language": "English (bio language)",
-  "niche": null,
+  "niche": "trading",
   "sells": [],
   "sells_evidence": null,
   "external_link": null,
@@ -1857,7 +1887,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "Small account; XAUUSD news trader"
+  "notes": "Small account; XAUUSD news trader",
+  "sub_niche": "forex, gold"
  },
  {
   "id": "tiktok:kianadanial",
@@ -1878,7 +1909,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": "crypto"
  },
  {
   "id": "tiktok:levelupwithantoinette",
@@ -1888,7 +1920,7 @@
   "display_name": "antoinettegee",
   "bio": "This is my REAL page. Beware of scammers!!  Follow my IG _antoinettegee",
   "country_or_language": "English (bio language)",
-  "niche": null,
+  "niche": "trading",
   "sells": [],
   "sells_evidence": null,
   "external_link": "https://linktr.ee/_antoinettegee?utm_source=linktree_profile_share&ltsid=5d6fa05b-f35f-497d-bc2f-72b7f749355c",
@@ -1897,7 +1929,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "Antoinette Gee; bio only links her IG/linktr.ee. Her media-kit site (not TikTok) mentions Gold Boss Academy"
+  "notes": "Antoinette Gee; bio only links her IG/linktr.ee. Her media-kit site (not TikTok) mentions Gold Boss Academy",
+  "sub_niche": "gold"
  },
  {
   "id": "tiktok:marktilbury",
@@ -1916,7 +1949,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "Bio points to YouTube"
+  "notes": "Bio points to YouTube",
+  "sub_niche": "mindset"
  },
  {
   "id": "tiktok:mastermoneyco",
@@ -1937,7 +1971,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": null
  },
  {
   "id": "tiktok:quikmotivationn",
@@ -1958,7 +1993,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": null
  },
  {
   "id": "tiktok:rajabanks786",
@@ -1977,7 +2013,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": "forex, gold"
  },
  {
   "id": "tiktok:raynerteo",
@@ -1996,7 +2033,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": null
  },
  {
   "id": "tiktok:realumarashraf",
@@ -2017,7 +2055,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "Recent-video sample looks old (latest returned video ~2025); views came via secUid fallback"
+  "notes": "Recent-video sample looks old (latest returned video ~2025); views came via secUid fallback",
+  "sub_niche": null
  },
  {
   "id": "tiktok:rocketsignals",
@@ -2038,7 +2077,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "Small account (bio is emoji/hashtags only)"
+  "notes": "Small account (bio is emoji/hashtags only)",
+  "sub_niche": "forex, gold"
  },
  {
   "id": "tiktok:seandekmar",
@@ -2057,7 +2097,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "Bio: live trading daily, teaching for FREE"
+  "notes": "Bio: live trading daily, teaching for FREE",
+  "sub_niche": null
  },
  {
   "id": "tiktok:sierraxliyah",
@@ -2078,7 +2119,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "Lifestyle/faith + trading"
+  "notes": "Lifestyle/faith + trading",
+  "sub_niche": null
  },
  {
   "id": "tiktok:stephtradez",
@@ -2099,7 +2141,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": null
  },
  {
   "id": "tiktok:teambulltrading",
@@ -2120,7 +2163,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "Prop-firm affiliate = partner-program relationship"
+  "notes": "Prop-firm affiliate = partner-program relationship",
+  "sub_niche": null
  },
  {
   "id": "tiktok:thedailytrader",
@@ -2141,7 +2185,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": null
  },
  {
   "id": "tiktok:thenvstr",
@@ -2162,7 +2207,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": "investing"
  },
  {
   "id": "tiktok:tmktrades",
@@ -2181,7 +2227,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "Link goes to Instagram (trade recaps)"
+  "notes": "Link goes to Instagram (trade recaps)",
+  "sub_niche": null
  },
  {
   "id": "tiktok:tomcrownofficial",
@@ -2191,7 +2238,7 @@
   "display_name": "Tom Crown",
   "bio": "200k YouTube @TomCrown",
   "country_or_language": "English (bio language)",
-  "niche": null,
+  "niche": "investing",
   "sells": [],
   "sells_evidence": null,
   "external_link": "https://profile.google.com/@tomcrown",
@@ -2200,7 +2247,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "Bio points to YouTube (200k)"
+  "notes": "Bio points to YouTube (200k)",
+  "sub_niche": "crypto"
  },
  {
   "id": "tiktok:tori.trades",
@@ -2221,7 +2269,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": null
  },
  {
   "id": "tiktok:virtualbacon",
@@ -2231,7 +2280,7 @@
   "display_name": "VirtualBacon",
   "bio": "Crypto Angel Investor and Developer\nFree Courses + Trading Group\n👇🏼",
   "country_or_language": "English (bio language)",
-  "niche": null,
+  "niche": "investing",
   "sells": [
    "Free courses + trading group (bio)"
   ],
@@ -2242,7 +2291,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": "crypto"
  },
  {
   "id": "tiktok:xauusd8960",
@@ -2252,7 +2302,7 @@
   "display_name": "Fuad Xau sniper 📈📉",
   "bio": "🎯 XAUUSD Only\n📈 Smart Money Concepts (SMC)\n💰 Patience = Profit",
   "country_or_language": "English (bio language)",
-  "niche": null,
+  "niche": "trading",
   "sells": [],
   "sells_evidence": null,
   "external_link": null,
@@ -2261,7 +2311,8 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": "Small account (only ~10 videos)"
+  "notes": "Small account (only ~10 videos)",
+  "sub_niche": "gold"
  },
  {
   "id": "tiktok:yourrichbff",
@@ -2282,6 +2333,7 @@
   "source_post_likes": null,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "sub_niche": null
  }
 ]

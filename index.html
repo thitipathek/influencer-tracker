@@ -53,7 +53,7 @@ details.bd summary{cursor:pointer;color:var(--accent);font-weight:700}
 .badges{display:flex;gap:6px;flex-wrap:wrap}
 .badge{font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;border-radius:6px;padding:2px 7px;background:#232832;color:#d8dce3}
 .badge.instagram{background:var(--ig);color:#fff}.badge.tiktok{background:#111;color:var(--tt);box-shadow:inset 0 0 0 1px var(--tt)}
-.badge.niche{color:var(--accent)}
+.badge.niche{color:var(--accent)}.badge .sub{color:var(--muted);text-transform:none;letter-spacing:0;font-weight:600}
 .badge.warn{background:#4a3a14;color:#ffd166}
 .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
 .stat{background:#11141a;border-radius:10px;padding:7px 8px}
@@ -155,7 +155,7 @@ function card(a,i){
  <div class="top">${localMedia(a.avatar)?`<img class="avatar" src="${esc(a.avatar)}" alt="" width="46" height="46" loading="lazy" data-init="${esc(init)}" data-bg="${a.platform==="tiktok"?"#25f4ee":"#c7f36b"}" onerror="avFail(this)">`:`<div class="avatar" style="background:${a.platform==="tiktok"?"#25f4ee":"#c7f36b"}">${esc(init)}</div>`}
  <div class="who"><div class="handle">${prof?`<a href="${esc(prof)}" target="_blank" rel="noopener">@${esc(a.handle)}</a>`:"@"+esc(a.handle)}</div>
  <div class="dname">${a.display_name?esc(a.display_name):"ชื่อ: —"}</div></div></div>
- <div class="badges"><span class="badge ${esc(a.platform)}">${esc(PLAT_TH[a.platform]||a.platform)}</span>${a.niche?`<span class="badge niche">${esc(NICHE_TH[a.niche]||a.niche)}</span>`:""}${status}</div>
+ <div class="badges"><span class="badge ${esc(a.platform)}">${esc(PLAT_TH[a.platform]||a.platform)}</span>${a.niche?`<span class="badge niche">${esc(NICHE_TH[a.niche]||a.niche)}${a.sub_niche?` <span class="sub">· ${esc(a.sub_niche)}</span>`:""}</span>`:""}${status}</div>
  ${scoreBlock(a.score)}
  ${localMedia(a.screenshot)&&localMedia(a.screenshot_thumb)?`<a class="shot" href="${esc(a.screenshot)}" data-lb="${esc(a.screenshot)}" target="_blank" rel="noopener"><img src="${esc(a.screenshot_thumb)}" alt="ภาพหน้าโปรไฟล์ @${esc(a.handle)}" loading="lazy">${a.media_date?`<span class="sdate">ภาพ ${esc(a.media_date)}</span>`:""}</a>`:""}
  <div class="stats">
