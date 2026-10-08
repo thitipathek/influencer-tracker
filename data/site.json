@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T18:51:28+07:00",
+ "generated_at": "2026-10-08T18:54:20+07:00",
  "last_updated": "2026-10-08",
  "snapshot_dates": [
   "2026-10-08"
@@ -2566,11 +2566,11 @@
    "posts": 934,
    "avg_likes_last12": 938,
    "sample_size": 12,
-   "avg_views_last12": 118855,
-   "views_sample_size": 12,
+   "avg_views_last12": 20569,
+   "views_sample_size": 11,
    "total_likes": null,
    "er": 0.349,
-   "view_rate": 41.38,
+   "view_rate": 7.16,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
@@ -2596,15 +2596,15 @@
    "score": {
     "scored_at": "2026-10-08",
     "pre_growth": true,
-    "total": 43,
+    "total": 51,
     "max": 75,
-    "scaled_100": 57.3,
+    "scaled_100": 68.0,
     "complete": true,
     "missing": [],
-    "grade": "C",
+    "grade": "B",
     "sections": {
      "engagement": {
-      "points": 5,
+      "points": 13,
       "max": 35,
       "items": {
        "er": {
@@ -2614,10 +2614,10 @@
         "note": "(avg likes 938 + avg comments 65) / 287249 followers = 0.35% over 12 posts; snapshot 2026-10-08"
        },
        "consistency": {
-        "points": 0,
+        "points": 8,
         "max": 10,
-        "value": 0.017,
-        "note": "median/max of views on 12 posts = 0.02 (CV 2.74); snapshot 2026-10-08"
+        "value": 0.409,
+        "note": "median/max of views on 11 posts = 17600/43000 = 0.409 (CV 0.50); views: pinned position(s) [1] excluded; snapshot 2026-10-08"
        },
        "comment_quality": {
         "points": 4,
@@ -3138,7 +3138,7 @@
    "display_name": "Technical Analysis Coach | Options Trading",
    "bio": "🤝 | 5+ Trading Experience\n💰 | Helping Beginners Become Profitable\n👨🏽‍💻 | Sharing Technical Analysis Content Daily\n👇 | Join My Trading Community",
    "country_or_language": "English (bio text)",
-   "niche": "mindset",
+   "niche": "trading",
    "sells": [
     "Discord membership 'Yearly Discord Access' (whop.com checkout link)",
     "Technical Analysis E-Book (stan.store link)"
@@ -3151,6 +3151,7 @@
    "status": "ok",
    "last_seen": "2026-10-08",
    "notes": null,
+   "niche_note": "Stocks/options (US equities), not gold/forex. Changed from the gallery-seeded 'mindset' on 2026-10-08.",
    "latest_date": "2026-10-08",
    "followers": 176578,
    "followers_approx": false,
@@ -3159,11 +3160,11 @@
    "posts": 2618,
    "avg_likes_last12": 448,
    "sample_size": 12,
-   "avg_views_last12": 15072,
-   "views_sample_size": 12,
+   "avg_views_last12": 7170,
+   "views_sample_size": 11,
    "total_likes": null,
    "er": 0.257,
-   "view_rate": 8.54,
+   "view_rate": 4.06,
    "wow_pct": null,
    "wow_abs": null,
    "total_pct": null,
@@ -3189,15 +3190,15 @@
    "score": {
     "scored_at": "2026-10-08",
     "pre_growth": true,
-    "total": 40,
+    "total": 42,
     "max": 75,
-    "scaled_100": 53.3,
+    "scaled_100": 56.0,
     "complete": true,
     "missing": [],
     "grade": "C",
     "sections": {
      "engagement": {
-      "points": 8,
+      "points": 10,
       "max": 35,
       "items": {
        "er": {
@@ -3207,10 +3208,10 @@
         "note": "(avg likes 448 + avg comments 6) / 176578 followers = 0.26% over 12 posts; snapshot 2026-10-08"
        },
        "consistency": {
-        "points": 2,
+        "points": 4,
         "max": 10,
-        "value": 0.05,
-        "note": "median/max of views on 12 posts = 0.05 (CV 1.78); snapshot 2026-10-08"
+        "value": 0.199,
+        "note": "median/max of views on 11 posts = 4938/24700 = 0.199 (CV 0.81); views: pinned position(s) [1] excluded; snapshot 2026-10-08"
        },
        "comment_quality": {
         "points": 5,
@@ -3862,7 +3863,7 @@
         "points": 10,
         "max": 10,
         "value": 0.667,
-        "note": "median/max of views on 9 posts = 0.67 (CV 0.20); views: 9 non-pinned grid view counts from the public profile on 2026-10-08; pinned positions [1, 2, 3] excluded; snapshot 2026-10-08"
+        "note": "median/max of views on 9 posts = 1241/1860 = 0.667 (CV 0.20); views: 9 non-pinned grid view counts from the public profile on 2026-10-08; pinned positions [1, 2, 3] excluded; snapshot 2026-10-08"
        },
        "comment_quality": {
         "points": null,

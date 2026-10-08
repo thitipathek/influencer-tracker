@@ -1145,7 +1145,7 @@
   "display_name": "Technical Analysis Coach | Options Trading",
   "bio": "🤝 | 5+ Trading Experience\n💰 | Helping Beginners Become Profitable\n👨🏽‍💻 | Sharing Technical Analysis Content Daily\n👇 | Join My Trading Community",
   "country_or_language": "English (bio text)",
-  "niche": "mindset",
+  "niche": "trading",
   "sells": [
    "Discord membership 'Yearly Discord Access' (whop.com checkout link)",
    "Technical Analysis E-Book (stan.store link)"
@@ -1157,7 +1157,8 @@
   "source_post_likes": 7100,
   "status": "ok",
   "last_seen": "2026-10-08",
-  "notes": null
+  "notes": null,
+  "niche_note": "Stocks/options (US equities), not gold/forex. Changed from the gallery-seeded 'mindset' on 2026-10-08."
  },
  {
   "id": "instagram:wicha.nokhong",
